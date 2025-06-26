@@ -241,11 +241,3 @@ router.post("/:id/:token",async(req,res)=>{
 
 module.exports = router;
 
-// 2 way connection 
-// 12345 ----> e#@$hagsjd
-// e#@$hagsjd ----> 12345
-
-// hashing compare 
-// 1 way connection 
-// 1234 ->> e#@$hagsjd
-// 1234 ->> (e#@$hagsjd,e#@$hagsjd) => true
