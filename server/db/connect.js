@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-const DB = "mongodb+srv://mern-auth:mern1234@mern-auth.embzx.mongodb.net/Authusers?retryWrites=true&w=majority&appName=MERN-Auth"
 
 mongoose.connect(DB,{
     useUnifiedTopology: true,
